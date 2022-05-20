@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
-        animator.SetFloat("Walking",Mathf.Abs(player.velocity.magnitude));
+        animator.SetFloat("Walking",Mathf.Abs(player.velocity.x));
         
         if (direction > 0f)
         {
