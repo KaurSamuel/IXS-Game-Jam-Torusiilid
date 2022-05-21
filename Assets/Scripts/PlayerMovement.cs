@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask groundLayer;
-    private bool isTouchingGround;
+    public bool isTouchingGround;
     public int HP;
     public GameObject equippedWeapon;
     public GameObject WeaponParent;
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
   // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
             player.velocity = new Vector2(0, player.velocity.y);
         }
 
-        if (Input.GetButtonDown("Jump") && isTouchingGround)
+        if (Input.GetButton("Jump") && isTouchingGround)
         {
             animator.SetTrigger("Jump");
             player.velocity = new Vector2(player.velocity.x, jumpSpeed);

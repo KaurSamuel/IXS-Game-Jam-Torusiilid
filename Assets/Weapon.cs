@@ -60,7 +60,6 @@ public class Weapon : MonoBehaviour
         animator.SetTrigger("Shoot");
         foreach (GameObject child in Children)
         {
-            Debug.Log("Shoot");
             Instantiate(Bullet, child.transform.position, child.transform.rotation);   
         }
     }
