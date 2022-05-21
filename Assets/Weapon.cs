@@ -14,6 +14,8 @@ public class Weapon : MonoBehaviour
     public float ShootingSpeed;
     public ShootingStyles ShootingStyle;
     public GameObject Bullet;
+    public bool IsMuzzleFlash;
+    public GameObject MuzzleFlash;
     
     public List<GameObject> Children;
     private Animator animator;
@@ -60,7 +62,11 @@ public class Weapon : MonoBehaviour
         animator.SetTrigger("Shoot");
         foreach (GameObject child in Children)
         {
-            Instantiate(Bullet, child.transform.position, child.transform.rotation);   
+            Instantiate(Bullet, child.transform.position, child.transform.rotation);
+            if (IsMuzzleFlash)
+            {
+                Instantiate(MuzzleFlash, child.transform.position, child.transform.rotation);
+            }
         }
     }
 }

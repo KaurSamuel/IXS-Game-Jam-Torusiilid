@@ -10,6 +10,7 @@
         <e p="Cameracontroller.cs" t="Include" />
         <e p="EnemyAI.cs" t="Include" />
         <e p="ExplosionScript.cs" t="Include" />
+        <e p="MuzzleFlash.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PlayerMovement.cs" t="Include" />
         </e>
