@@ -17,10 +17,17 @@ public class PlayerMovement : MonoBehaviour
     public int HP;
     public GameObject equippedWeapon;
     public GameObject WeaponParent;
+
+    public AudioClip JumpSound;
+    public AudioClip FootStepSound;
+
+    public AudioSource audioSource;
+    public AudioSource walkaudioSource;
     
     private bool InvincibilityFrames;
     public float invincibilityFramesDuration = 1;
     private float CurInvTimer = 0;
+    private bool walking;
 
     private Animator animator;
   
@@ -48,6 +55,14 @@ public class PlayerMovement : MonoBehaviour
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
         animator.SetFloat("Walking",Mathf.Abs(player.velocity.x));
+        if (Mathf.Abs(player.velocity.x) > 1 && isTouchingGround)
+        {
+            walkaudioSource.volume = Single.MaxValue;
+        }
+        else
+        {
+            walkaudioSource.volume = Single.MinValue;
+        }
         
         if (direction > 0f)
         {
@@ -67,6 +82,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButton("Jump") && isTouchingGround)
         {
             animator.SetTrigger("Jump");
+            audioSource.clip = JumpSound;
+            audioSource.Play();
             player.velocity = new Vector2(player.velocity.x, jumpSpeed);
         }
 

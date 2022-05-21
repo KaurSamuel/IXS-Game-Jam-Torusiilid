@@ -16,7 +16,9 @@ public class Weapon : MonoBehaviour
     public GameObject Bullet;
     public bool IsMuzzleFlash;
     public GameObject MuzzleFlash;
+    public AudioClip ShootingSound;
     
+    private AudioSource audioSource;
     public List<GameObject> Children;
     private Animator animator;
     private float curTimer;
@@ -24,6 +26,7 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         foreach (Transform child in transform)
         {
@@ -60,6 +63,11 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         animator.SetTrigger("Shoot");
+        if (ShootingSound != null)
+        {
+            audioSource.clip = ShootingSound;
+            audioSource.Play();
+        }
         foreach (GameObject child in Children)
         {
             Instantiate(Bullet, child.transform.position, child.transform.rotation);
