@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -232,6 +233,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Enemy_granaat_0: -958607073012561867
+      Enemy_granaat_2: -8504945295545507390
+      Enemy_granaat_1: 5661014491549638458
+      Enemy_granaat_4: 3118950977691970281
+      Enemy_granaat_3: 3597008530641795449
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
