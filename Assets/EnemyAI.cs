@@ -20,6 +20,7 @@ public class EnemyAI : MonoBehaviour
     public float JumpingSpeed;
     public float JumpingForce;
     public bool Floating;
+    public bool Stational;
     
     public GameObject bullet;
     public LayerMask groundLayer;
@@ -77,24 +78,30 @@ public class EnemyAI : MonoBehaviour
                 direction = 1;
             } 
         }
-        //transform.rotation = Quaternion.Euler(0, 0, 0);
-        if (direction == 1)
-        {
-            transform.rotation = Quaternion.Euler(0, 180f, 0);
-            //gameObject.GetComponent<SpriteRenderer>().flipX = true;
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-            //gameObject.GetComponent<SpriteRenderer>().flipX = false;
-        }
-        Enemy.velocity = new Vector2(direction*-1 * Speed, Enemy.velocity.y);
-
+        
         if (Shooting && curTimerShoot >= ShootingSpeed)
         {
             Shoot();
             curTimerShoot = 0;
         }
+
+        if (Stational)
+        {
+            return;
+        }
+        
+        if (direction == 1)
+        {
+            transform.rotation = Quaternion.Euler(0, 180f, 0);
+            
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+            
+        }
+        Enemy.velocity = new Vector2(direction*-1 * Speed, Enemy.velocity.y);
+        
         if (Jumping && curTimerjump >= JumpingSpeed)
         {
             Enemy.velocity = new Vector2(0, JumpingForce);

@@ -3,9 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="205254c1-9e1f-41fb-8dc4-3f4c6ecc733f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/BOMB.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/BOMB.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/BombShoot.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/BombShoot.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Handgun.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Handgun.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/HandgunIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/HandgunIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/HandgunShoot.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/HandgunShoot.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/IdleBomb.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/IdleBomb.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/IdleGranat.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/IdleGranat.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Morning star.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Morning star.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/MorningStarShoot.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/MorningStarShoot.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Muzzle Flash.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Muzzle Flash.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Muzzle falsh UZI.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Muzzle falsh UZI.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/MuzzleFlashUzi.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/MuzzleFlashUzi.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Muzzle_flash_0.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Muzzle_flash_0.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/RPG.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/RPG.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/RPGIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/RPGIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/ShootGranat.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/ShootGranat.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/ShootRPG.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/ShootRPG.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MuzzleFlash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MuzzleFlash.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy Morning Star.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy Morning Star.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kaur Debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kaur Debug.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +51,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bullets/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Kaur Debug.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MuzzleFlash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WeaponPickup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -99,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653069592654</updated>
       <workItem from="1653069602663" duration="25164000" />
-      <workItem from="1653119890917" duration="14148000" />
+      <workItem from="1653119890917" duration="16243000" />
     </task>
     <servers />
   </component>
