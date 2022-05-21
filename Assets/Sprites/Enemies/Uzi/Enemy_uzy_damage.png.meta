@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -232,6 +233,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Enemy_uzy_damage_3: 181382704808342285
+      Enemy_uzy_damage_4: -4956558033245780181
+      Enemy_uzy_damage_2: 9112852608626805940
+      Enemy_uzy_damage_1: -2164421287305778103
+      Enemy_uzy_damage_0: -7749675420781866275
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

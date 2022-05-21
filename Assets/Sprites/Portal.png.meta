@@ -1,34 +1,7 @@
 fileFormatVersion: 2
-guid: 4b5d7bb17fbaa994db4f754451a0bfdd
+guid: 3207fd1b5cd94ab4ebd16139acccfc3c
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6028657541266441347
-    second: enemy_morningstar_0
-  - first:
-      213: 4502850082907728060
-    second: enemy_morningstar_1
-  - first:
-      213: -7739696343907693873
-    second: enemy_morningstar_2
-  - first:
-      213: -6971490537045277354
-    second: enemy_morningstar_3
-  - first:
-      213: 1063047493908965547
-    second: enemy_morningstar_4
-  - first:
-      213: 6846562032684465262
-    second: enemy_morningstar_5
-  - first:
-      213: 2119793230716668812
-    second: enemy_morningstar_6
-  - first:
-      213: 6897606776285218758
-    second: enemy_morningstar_7
-  - first:
-      213: 7842559407443469498
-    second: enemy_morningstar_8
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +78,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -117,7 +102,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 4096
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -131,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy_morningstar_0
+      name: Portal_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 228
-        height: 180
+        width: 196
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3848aa3b7181aa350800000000000000
-      internalID: 6028657541266441347
+      spriteID: 7fb7a7a6f86390a4fb7b6e4fdc0dfce5
+      internalID: 480438466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_morningstar_1
+      name: Portal_1
       rect:
         serializedVersion: 2
-        x: 228
+        x: 196
         y: 0
-        width: 228
-        height: 180
+        width: 196
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb8ad841b465d7e30800000000000000
-      internalID: 4502850082907728060
+      spriteID: e6629dcc209aef241b3c9d400e835874
+      internalID: -1796782127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_morningstar_2
+      name: Portal_2
       rect:
         serializedVersion: 2
-        x: 456
+        x: 392
         y: 0
-        width: 228
-        height: 180
+        width: 196
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca0eff8e23179490800000000000000
-      internalID: -7739696343907693873
+      spriteID: 3096eb897d11e8447a6eda2ae4f66c7b
+      internalID: -782084635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_morningstar_3
+      name: Portal_3
       rect:
         serializedVersion: 2
-        x: 684
+        x: 588
         y: 0
-        width: 228
-        height: 180
+        width: 196
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6554b680b4a404f90800000000000000
-      internalID: -6971490537045277354
+      spriteID: 40333a8146b2d324aa1386ab929bfc07
+      internalID: -87124389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_morningstar_4
+      name: Portal_4
       rect:
         serializedVersion: 2
-        x: 912
+        x: 784
         y: 0
-        width: 228
-        height: 180
+        width: 196
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,92 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba820dd3014b0ce00800000000000000
-      internalID: 1063047493908965547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_morningstar_5
-      rect:
-        serializedVersion: 2
-        x: 1140
-        y: 0
-        width: 228
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6c75d2e4efd30f50800000000000000
-      internalID: 6846562032684465262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_morningstar_6
-      rect:
-        serializedVersion: 2
-        x: 1368
-        y: 0
-        width: 228
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8b052256b40b6d10800000000000000
-      internalID: 2119793230716668812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_morningstar_7
-      rect:
-        serializedVersion: 2
-        x: 1596
-        y: 0
-        width: 228
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c7cec461d839bf50800000000000000
-      internalID: 6897606776285218758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_morningstar_8
-      rect:
-        serializedVersion: 2
-        x: 1824
-        y: 0
-        width: 228
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab4e09aba3e56dc60800000000000000
-      internalID: 7842559407443469498
+      spriteID: fe7cc328056acde45a52fc04454b3468
+      internalID: -1193345378
       vertices: []
       indices: 
       edges: []
@@ -330,15 +243,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy_morningstar_6: 2119793230716668812
-      enemy_morningstar_1: 4502850082907728060
-      enemy_morningstar_4: 1063047493908965547
-      enemy_morningstar_2: -7739696343907693873
-      enemy_morningstar_3: -6971490537045277354
-      enemy_morningstar_5: 6846562032684465262
-      enemy_morningstar_7: 6897606776285218758
-      enemy_morningstar_8: 7842559407443469498
-      enemy_morningstar_0: 6028657541266441347
+      Portal_0: 480438466
+      Portal_2: -782084635
+      Portal_3: -87124389
+      Portal_4: -1193345378
+      Portal_1: -1796782127
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

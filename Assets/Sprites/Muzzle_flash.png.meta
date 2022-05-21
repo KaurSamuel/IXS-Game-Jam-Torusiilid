@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Muzzle_flash_4: -2337109590304934912
+      Muzzle_flash_3: 3054956604489704018
+      Muzzle_flash_0: 4908711846072354555
+      Muzzle_flash_2: 3419255281619537837
+      Muzzle_flash_1: -744623682595456627
+      Muzzle_flash_5: -8308425428075383271
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

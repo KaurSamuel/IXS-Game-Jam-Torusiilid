@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -304,6 +305,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Morningstar_inhand_1: 6104648804343885501
+      Morningstar_inhand_3: 8458783511474902059
+      Morningstar_inhand_5: -2256362278405573205
+      Morningstar_inhand_4: 8032263065579217160
+      Morningstar_inhand_2: -5887131696386775409
+      Morningstar_inhand_0: 7521595383457555634
+      Morningstar_inhand_6: -1554728071736836594
+      Morningstar_inhand_7: 4651873951306744508
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

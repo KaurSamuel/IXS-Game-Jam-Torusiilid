@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -232,6 +233,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      enemy_rpg_gamage_2: 5556283322512458385
+      enemy_rpg_gamage_3: 2063733696835045231
+      enemy_rpg_gamage_0: 7196011310326335092
+      enemy_rpg_gamage_1: -5899540068979555348
+      enemy_rpg_gamage_4: 6716816459386314570
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

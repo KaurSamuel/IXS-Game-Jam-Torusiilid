@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -232,6 +233,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      enemy_morningstar_damage_0: -7706904586682326278
+      enemy_morningstar_damage_3: 6473192800181305361
+      enemy_morningstar_damage_4: 8825616699709806174
+      enemy_morningstar_damage_2: -6521614579823026655
+      enemy_morningstar_damage_1: -2268191328614457067
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
