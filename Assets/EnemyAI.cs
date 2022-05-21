@@ -19,6 +19,7 @@ public class EnemyAI : MonoBehaviour
     public bool Jumping;
     public float JumpingSpeed;
     public float JumpingForce;
+    public bool Floating;
     
     public GameObject bullet;
     public LayerMask groundLayer;
@@ -54,17 +55,28 @@ public class EnemyAI : MonoBehaviour
         curTimerjump += Time.deltaTime;
         isTouchingGroundRight = Physics2D.OverlapCircle(groundCheckRight.position, groundCheckRadius, groundLayer);
         isTouchingGroundLeft = Physics2D.OverlapCircle(groundCheckLeft.position, groundCheckRadius, groundLayer);
-        
-        if (isTouchingGroundRight == false)
+        if (!Floating)
         {
-            direction = -1;
+            if (isTouchingGroundRight == false)
+            {
+                direction = -1;
+            }
+            if (isTouchingGroundLeft == false)
+            {
+                direction = 1;
+            } 
         }
-        if (isTouchingGroundLeft == false)
+        else
         {
-            direction = 1;
-        }   
-        
-
+            if (isTouchingGroundRight)
+            {
+                direction = -1;
+            }
+            if (isTouchingGroundLeft)
+            {
+                direction = 1;
+            } 
+        }
         //transform.rotation = Quaternion.Euler(0, 0, 0);
         if (direction == 1)
         {
