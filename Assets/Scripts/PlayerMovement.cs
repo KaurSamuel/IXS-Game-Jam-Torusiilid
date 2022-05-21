@@ -17,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
     public int HP;
     public GameObject equippedWeapon;
     public GameObject WeaponParent;
+    
+    private bool InvincibilityFrames;
+    public float invincibilityFramesDuration = 1;
+    private float CurInvTimer = 0;
 
     private Animator animator;
   
@@ -65,6 +69,31 @@ public class PlayerMovement : MonoBehaviour
             animator.SetTrigger("Jump");
             player.velocity = new Vector2(player.velocity.x, jumpSpeed);
         }
+
+        if (InvincibilityFrames)
+        {
+            CurInvTimer += Time.deltaTime;
+            if (CurInvTimer >= invincibilityFramesDuration)
+            {
+                InvincibilityFrames = false;
+                animator.SetBool("Invincibility", false);
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy") && !InvincibilityFrames)
+        {
+            animator.SetTrigger("Damage");
+            HP -= 1;
+            if (HP <= 0)
+            {
+                Gameover();
+            }
+            animator.SetBool("Invincibility", true);
+            InvincibilityFrames = true;
+        }
     }
 
     public void ChangeWeapon(GameObject weapon)
@@ -82,5 +111,10 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void Gameover()
+    {
+        Debug.Log("Game Over!");
     }
 }

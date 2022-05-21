@@ -16,6 +16,10 @@ public class EnemyAI : MonoBehaviour
     public float Speed;
     public bool Shooting;
     public float ShootingSpeed = 2;
+    public bool Jumping;
+    public float JumpingSpeed;
+    public float JumpingForce;
+    
     public GameObject bullet;
     public LayerMask groundLayer;
     private Rigidbody2D Enemy;
@@ -27,7 +31,7 @@ public class EnemyAI : MonoBehaviour
     private float direction = 1;
 
     private float curTimerShoot = 0;
-    private float curTimaerjump = 0;
+    private float curTimerjump = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,8 +51,10 @@ public class EnemyAI : MonoBehaviour
     void FixedUpdate()
     {
         curTimerShoot += Time.deltaTime;
+        curTimerjump += Time.deltaTime;
         isTouchingGroundRight = Physics2D.OverlapCircle(groundCheckRight.position, groundCheckRadius, groundLayer);
         isTouchingGroundLeft = Physics2D.OverlapCircle(groundCheckLeft.position, groundCheckRadius, groundLayer);
+        
         if (isTouchingGroundRight == false)
         {
             direction = -1;
@@ -56,8 +62,9 @@ public class EnemyAI : MonoBehaviour
         if (isTouchingGroundLeft == false)
         {
             direction = 1;
-        }
+        }   
         
+
         //transform.rotation = Quaternion.Euler(0, 0, 0);
         if (direction == 1)
         {
@@ -75,6 +82,11 @@ public class EnemyAI : MonoBehaviour
         {
             Shoot();
             curTimerShoot = 0;
+        }
+        if (Jumping && curTimerjump >= JumpingSpeed)
+        {
+            Enemy.velocity = new Vector2(0, JumpingForce);
+            curTimerjump = 0;
         }
     }
     

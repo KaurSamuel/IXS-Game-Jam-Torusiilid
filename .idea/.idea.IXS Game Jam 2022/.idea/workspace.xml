@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="205254c1-9e1f-41fb-8dc4-3f4c6ecc733f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickups/Weapon pickup Granat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickups/Weapon pickup Granat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Weapon Granat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Weapon Granat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +36,10 @@
         <option value="$PROJECT_DIR$/Assets/ExplosionScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Cameracontroller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/MuzzleFlash.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemyAI.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653069592654</updated>
       <workItem from="1653069602663" duration="25164000" />
-      <workItem from="1653119890917" duration="7354000" />
+      <workItem from="1653119890917" duration="12049000" />
     </task>
     <servers />
   </component>
