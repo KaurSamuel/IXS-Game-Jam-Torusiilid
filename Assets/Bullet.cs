@@ -9,7 +9,12 @@ public class Bullet : MonoBehaviour
     
     public float travelspeed;
     public float rotationSpeed;
-
+    public float lifeTimer = 5;
+    public float rotatetimer;
+    public bool exploding;
+    public GameObject Explosion;
+    public float damage;
+    
     private float curTimer;
     // Start is called before the first frame update
     void Start()
@@ -21,17 +26,24 @@ public class Bullet : MonoBehaviour
     void FixedUpdate()
     {
         curTimer += Time.deltaTime;
-        if (curTimer > 5)
+        if (curTimer > lifeTimer)
         {
             Destroy(gameObject);
         }
         // Bullet traveling foward in an constant speed
         transform.position += transform.right * Time.deltaTime * travelspeed;
-        transform.Rotate(0,0,rotationSpeed);
+        if (curTimer < rotatetimer)
+        {
+            transform.Rotate(0,0,rotationSpeed);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if (exploding)
+        {
+            Instantiate(Explosion,gameObject.transform.position,Quaternion.identity);
+        }
         Destroy(gameObject);
     }
 }

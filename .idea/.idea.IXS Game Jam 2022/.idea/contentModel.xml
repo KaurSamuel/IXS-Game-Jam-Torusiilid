@@ -7,11 +7,14 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Bullet.cs" t="Include" />
+        <e p="EnemyAI.cs" t="Include" />
+        <e p="ExplosionScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PlayerMovement.cs" t="Include" />
         </e>
         <e p="Shootingspot.cs" t="Include" />
         <e p="Weapon.cs" t="Include" />
+        <e p="WeaponPickup.cs" t="Include" />
       </e>
       <e p="IXS Game Jam 2022.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

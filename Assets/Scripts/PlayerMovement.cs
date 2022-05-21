@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask groundLayer;
     private bool isTouchingGround;
+    public int HP;
+    public GameObject equippedWeapon;
+    public GameObject WeaponParent;
 
     private Animator animator;
   
@@ -22,6 +26,16 @@ public class PlayerMovement : MonoBehaviour
     {
         player = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        foreach (Transform child in transform)
+        {
+            if (child.gameObject.CompareTag("Weapon"))
+            {
+                foreach (Transform subChild in child.transform)
+                {
+                    equippedWeapon = subChild.gameObject;   
+                }
+            }
+        }
     }
 
   // Update is called once per frame
@@ -49,7 +63,24 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isTouchingGround)
         {
             animator.SetTrigger("Jump");
-             player.velocity = new Vector2(player.velocity.x, jumpSpeed);
+            player.velocity = new Vector2(player.velocity.x, jumpSpeed);
+        }
+    }
+
+    public void ChangeWeapon(GameObject weapon)
+    {
+        Destroy(equippedWeapon);
+        Instantiate(weapon, WeaponParent.transform);
+
+        foreach (Transform child in transform)
+        {
+            if (child.gameObject.CompareTag("Weapon"))
+            {
+                foreach (Transform subChild in child.transform)
+                {
+                    equippedWeapon = subChild.gameObject;   
+                }
+            }
         }
     }
 }

@@ -5,12 +5,6 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public enum ShootingDirections
-    {
-        Forward,
-        Backwards,
-        Upwards
-    }
     public enum ShootingStyles
     {
         Auto,
@@ -19,15 +13,16 @@ public class Weapon : MonoBehaviour
 
     public float ShootingSpeed;
     public ShootingStyles ShootingStyle;
-    public ShootingDirections ShootingDirection;
     public GameObject Bullet;
     
     public List<GameObject> Children;
+    private Animator animator;
     private float curTimer;
     
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         foreach (Transform child in transform)
         {
             if (child.CompareTag("ShootingSpot"))
@@ -62,6 +57,7 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
+        animator.SetTrigger("Shoot");
         foreach (GameObject child in Children)
         {
             Debug.Log("Shoot");
