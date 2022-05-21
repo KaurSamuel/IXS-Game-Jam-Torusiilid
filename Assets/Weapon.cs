@@ -33,7 +33,7 @@ public class Weapon : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         curTimer += Time.deltaTime;
         if (ShootingStyle == ShootingStyles.Auto)
