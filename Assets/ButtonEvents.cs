@@ -4,18 +4,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using TMPro;
+using UnityEngine.UI;
 
 public class ButtonEvents : MonoBehaviour
 {
     AudioSource m_audioClip;
     public GameObject ScoreboardText;
     public GameObject PlayernameInput;
+    public GameObject playerScore;
+    public GameObject Submitbutton;
 
     public string username_unconfirmed = "";
     // Start is called before the first frame update
     void Start()
     {
-
+        RecieveScores();
+        Debug.Log(ScoreHolder.Score.ToString());
     }
 
     // Update is called once per frame
@@ -40,7 +44,7 @@ public class ButtonEvents : MonoBehaviour
     public void SendScore()
     {
         System.Random rnd = new System.Random();
-        StartCoroutine(Send(username_unconfirmed, rnd.Next(1000000)));
+        StartCoroutine(Send(username_unconfirmed, ScoreHolder.Score));
     }
 
     IEnumerator Send(string Name, int Score){
@@ -117,6 +121,8 @@ public class ButtonEvents : MonoBehaviour
         }
 
         ScoreboardObject.text = final_scores_text;
+        Submitbutton.SetActive(false);
+        RecieveScores();
     }
 
 }

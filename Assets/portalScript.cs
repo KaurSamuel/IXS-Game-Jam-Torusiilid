@@ -9,11 +9,14 @@ public class portalScript : MonoBehaviour
     private Animator Animator;
 
     public GameObject FadeObject;
+    public AudioClip Portaltravel;
+    private AudioSource audioSource;
     private bool IsStartGame = false;
     private float Curtimer = 0;
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         Animator = FadeObject.GetComponent<Animator>();
     }
 
@@ -34,6 +37,8 @@ public class portalScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            audioSource.clip = Portaltravel;
+            audioSource.Play();
             Animator.SetTrigger("Fade");
             IsStartGame = true;
         }

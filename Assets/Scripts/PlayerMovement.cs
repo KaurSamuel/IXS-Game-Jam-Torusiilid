@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -20,17 +21,21 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioClip JumpSound;
     public AudioClip FootStepSound;
+    public AudioClip DamageSound;
 
     public AudioSource audioSource;
     public AudioSource walkaudioSource;
-    
+
+    public Animator Fade;
+
     private bool InvincibilityFrames;
     public float invincibilityFramesDuration = 1;
     private float CurInvTimer = 0;
     private bool walking;
+    private bool gameover = false;
 
     private Animator animator;
-  
+    private float curGamovertimer = 0;
 
   // Start is called before the first frame update
     void Start()
@@ -52,12 +57,21 @@ public class PlayerMovement : MonoBehaviour
   // Update is called once per frame
     void Update()
     {
+        if (gameover)
+        {
+            curGamovertimer += Time.deltaTime;
+            if (curGamovertimer > 2.5f)
+            {
+                SceneManager.LoadScene("You Died");
+            }
+            return;
+        }
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
         animator.SetFloat("Walking",Mathf.Abs(player.velocity.x));
         if (Mathf.Abs(player.velocity.x) > 1 && isTouchingGround)
         {
-            walkaudioSource.volume = Single.MaxValue;
+            walkaudioSource.volume = 0.2f;
         }
         else
         {
@@ -100,9 +114,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Enemy") && !InvincibilityFrames)
+        if ((other.gameObject.CompareTag("Enemy") || other.gameObject.CompareTag("EnemyBullet") ) && !InvincibilityFrames)
         {
             animator.SetTrigger("Damage");
+            audioSource.clip = DamageSound;
+            audioSource.Play();
             HP -= 1;
             if (HP <= 0)
             {
@@ -132,6 +148,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Gameover()
     {
+        Fade.SetTrigger("Fade");
+        gameover = true;
         Debug.Log("Game Over!");
     }
 }

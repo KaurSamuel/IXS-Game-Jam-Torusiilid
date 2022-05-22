@@ -14,7 +14,9 @@ public class Bullet : MonoBehaviour
     public bool exploding;
     public GameObject Explosion;
     public float damage;
-    
+
+    private AudioSource audioSource;
+    public AudioClip explosionSound;
     private float curTimer;
     // Start is called before the first frame update
     void Start()
