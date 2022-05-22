@@ -17,8 +17,20 @@ public class MainMenuManager : MonoBehaviour
         
     }
 
-    void PlayGameButtonClick()
+    public void PlayGameButtonClick()
     {
-        SceneManager.LoadScene("Master");
+        SceneManager.LoadScene("Tutourial");
+    }
+    public void MainMenuButtonClick()
+    {
+        SceneManager.LoadScene("Main menu");
+    }
+    public void ScoreboardButtonClick()
+    {
+        SceneManager.LoadScene("ScoreBoard");
+    }
+    public void CreditsButtonClick()
+    {
+        SceneManager.LoadScene("Credits");
     }
 }

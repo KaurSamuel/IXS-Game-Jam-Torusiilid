@@ -17,6 +17,7 @@
         <e p="portalScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="ScoreHolder.cs" t="Include" />
         </e>
         <e p="Shootingspot.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
