@@ -141,7 +141,8 @@ public class EnemyAI : MonoBehaviour
     {
         foreach (GameObject child in Children)
         {
-            Instantiate(bullet, child.transform.position, child.transform.rotation);   
+            child.tag = "EnemyBullet";
+            Instantiate(bullet, child.transform.position, child.transform.rotation);
         }
     }
 }

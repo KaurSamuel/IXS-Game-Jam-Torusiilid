@@ -12,6 +12,7 @@ public class ButtonEvents : MonoBehaviour
     public GameObject ScoreboardText;
     public GameObject PlayernameInput;
     public GameObject playerScore;
+    public GameObject Submitbutton;
 
     public string username_unconfirmed = "";
     // Start is called before the first frame update
@@ -120,6 +121,7 @@ public class ButtonEvents : MonoBehaviour
         }
 
         ScoreboardObject.text = final_scores_text;
+        Submitbutton.SetActive(false);
         RecieveScores();
     }
 

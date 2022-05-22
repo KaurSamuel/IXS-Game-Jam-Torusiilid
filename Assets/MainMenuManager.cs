@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class MainMenuManager : MonoBehaviour
 {
+    public Slider slider;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +16,10 @@ public class MainMenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (slider != null)
+        {
+            ScoreHolder.Volume = slider.value;
+        }
     }
 
     public void PlayGameButtonClick()

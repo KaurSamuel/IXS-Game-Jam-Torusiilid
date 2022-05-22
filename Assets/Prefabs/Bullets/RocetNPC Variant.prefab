@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1677919284029565582, guid: f5c7859c3ef01564dab26fa72b2e5e70, type: 3}
       propertyPath: m_Name
-      value: RocetNPC
+      value: RocetNPC Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677919284029565582, guid: f5c7859c3ef01564dab26fa72b2e5e70, type: 3}
+      propertyPath: m_TagString
+      value: EnemyBullet
       objectReference: {fileID: 0}
     - target: {fileID: 1677919284029565583, guid: f5c7859c3ef01564dab26fa72b2e5e70, type: 3}
       propertyPath: Explosion

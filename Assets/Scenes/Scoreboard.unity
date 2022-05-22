@@ -349,7 +349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000090599, y: -41.574837}
+  m_AnchoredPosition: {x: 0.0000090599, y: 13.425159}
   m_SizeDelta: {x: 711.6662, y: 355.1491}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534389207
@@ -548,6 +548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreboardText: {fileID: 1529345133}
   PlayernameInput: {fileID: 0}
+  playerScore: {fileID: 0}
   username_unconfirmed: 
 --- !u!4 &666015154
 Transform:
@@ -712,7 +713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000020981, y: 209}
+  m_AnchoredPosition: {x: -0.000020981, y: 264}
   m_SizeDelta: {x: 477.4761, y: 66.0233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968950909
@@ -1180,7 +1181,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -405}
+  m_AnchoredPosition: {x: 0, y: -350}
   m_SizeDelta: {x: 1000, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1598341890
@@ -1437,7 +1438,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 826437621}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3551491
+  m_Size: 0.35514912
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1564,7 +1565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000025928, y: 0}
+  m_AnchoredPosition: {x: 0.0000025928, y: 54.999996}
   m_SizeDelta: {x: 866.1456, y: 602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115549058

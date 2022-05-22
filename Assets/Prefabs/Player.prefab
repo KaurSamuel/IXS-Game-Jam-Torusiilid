@@ -118,8 +118,10 @@ MonoBehaviour:
   WeaponParent: {fileID: 2597450023181351015}
   JumpSound: {fileID: 8300000, guid: 49b0ccc0d7afe0048a589fc5de1adfc6, type: 3}
   FootStepSound: {fileID: 8300000, guid: c609df0c5bf32b641bad92351174ca89, type: 3}
+  DamageSound: {fileID: 8300000, guid: 814633f65b0753945a88cdd66b88e5bc, type: 3}
   audioSource: {fileID: 1727303412089397071}
   walkaudioSource: {fileID: 1011693000}
+  Fade: {fileID: 0}
   invincibilityFramesDuration: 2
 --- !u!50 &2597450022626397604
 Rigidbody2D:
@@ -200,7 +202,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -295,7 +297,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c609df0c5bf32b641bad92351174ca89, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
