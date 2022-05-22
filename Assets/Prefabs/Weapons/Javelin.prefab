@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootingSpeed: 3
-  ShootingStyle: 0
+  ShootingStyle: 1
   Bullet: {fileID: 5727447912991466521, guid: dc3179f82471b074d9a4398130330570, type: 3}
   IsMuzzleFlash: 1
   MuzzleFlash: {fileID: 8186363780375482980, guid: 47c40144af6c95347ae706ca6be87cd5, type: 3}
