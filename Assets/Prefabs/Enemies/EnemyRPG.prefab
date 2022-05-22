@@ -249,7 +249,7 @@ MonoBehaviour:
     m_Bits: 64
   WeaponPickup: {fileID: 5781451531050291829, guid: cea8e863405e9fc4fa25a9ae3bef1b97, type: 3}
   Children: []
-  HP: 4
+  HP: 6
 --- !u!1 &9187038934467385052
 GameObject:
   m_ObjectHideFlags: 0

@@ -268,7 +268,7 @@ MonoBehaviour:
   groundCheckRadius: 0.2
   Speed: 1.5
   Shooting: 1
-  ShootingSpeed: 2
+  ShootingSpeed: 5
   Jumping: 0
   JumpingSpeed: 0
   JumpingForce: 0
@@ -278,6 +278,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  WeaponPickup: {fileID: 5781451531050291829, guid: cea8e863405e9fc4fa25a9ae3bef1b97, type: 3}
+  WeaponPickup: {fileID: 922225340720067958, guid: f916af2f0c3d41d42aee3f4736b4865e, type: 3}
   Children: []
-  HP: 4
+  HP: 5

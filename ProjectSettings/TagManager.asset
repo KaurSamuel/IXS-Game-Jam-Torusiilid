@@ -10,6 +10,7 @@ TagManager:
   - Explosion
   - Enemy
   - EnemyBullet
+  - EnemyExplosion
   layers:
   - Default
   - TransparentFX

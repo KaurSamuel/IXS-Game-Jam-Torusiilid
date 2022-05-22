@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="205254c1-9e1f-41fb-8dc4-3f4c6ecc733f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Mission fail.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Mission fail.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Music.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Music.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Tartu Game Jam.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Tartu Game Jam.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ButtonEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ButtonEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Master.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Master.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scoreboard.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scoreboard.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutourial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutourial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/You Died.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/You Died.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Portal_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Portal_0.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/musicplayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/musicplayer.cs" afterDir="false" />
-    </list>
+    <list default="true" id="205254c1-9e1f-41fb-8dc4-3f4c6ecc733f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653069592654</updated>
       <workItem from="1653069602663" duration="25164000" />
-      <workItem from="1653119890917" duration="44022000" />
+      <workItem from="1653119890917" duration="44617000" />
     </task>
     <servers />
   </component>

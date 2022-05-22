@@ -208,7 +208,7 @@ MonoBehaviour:
   groundCheckRadius: 0.2
   Speed: 1.5
   Shooting: 1
-  ShootingSpeed: 1.5
+  ShootingSpeed: 3
   Jumping: 0
   JumpingSpeed: 0
   JumpingForce: 0
@@ -220,7 +220,7 @@ MonoBehaviour:
     m_Bits: 64
   WeaponPickup: {fileID: 156550170149426010, guid: e73485e05910ee24b985f23e59c8e5b0, type: 3}
   Children: []
-  HP: 4
+  HP: 2
 --- !u!1 &2002007133520309547
 GameObject:
   m_ObjectHideFlags: 0

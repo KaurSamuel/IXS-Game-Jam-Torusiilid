@@ -51,9 +51,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5727447912991466520, guid: dc3179f82471b074d9a4398130330570, type: 3}
+      propertyPath: Explosion
+      value: 
+      objectReference: {fileID: 2876203624220614241, guid: 55caaad93f0306b4ebf9c6b65a3ecd30, type: 3}
+    - target: {fileID: 5727447912991466520, guid: dc3179f82471b074d9a4398130330570, type: 3}
+      propertyPath: lifeTimer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5727447912991466521, guid: dc3179f82471b074d9a4398130330570, type: 3}
       propertyPath: m_Name
-      value: JavelinBullet
+      value: JavelinBullet Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5727447912991466521, guid: dc3179f82471b074d9a4398130330570, type: 3}
       propertyPath: m_TagString

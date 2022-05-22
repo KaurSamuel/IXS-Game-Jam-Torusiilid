@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Lifetimer: 0.5
-  Damage: 4
+  Damage: 6
   explosionSound: {fileID: 8300000, guid: d1fe9fd4aeabf9846ad31b98133f2ef4, type: 3}
 --- !u!95 &9025168569579205291
 Animator:

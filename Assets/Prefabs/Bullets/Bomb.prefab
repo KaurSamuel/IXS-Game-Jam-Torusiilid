@@ -30,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.4209003, y: 0.17154044, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 0.18003453}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -124,8 +125,9 @@ MonoBehaviour:
   lifeTimer: 2
   rotatetimer: 0.5
   exploding: 1
-  Explosion: {fileID: 3541684611926216782, guid: ad54da14d594fd243807ab55770384db, type: 3}
+  Explosion: {fileID: 6968813565689337073, guid: c72163fe356b3fe42ac7f76a5be63054, type: 3}
   damage: 0
+  explosionSound: {fileID: 0}
 --- !u!70 &1871259453418691264
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

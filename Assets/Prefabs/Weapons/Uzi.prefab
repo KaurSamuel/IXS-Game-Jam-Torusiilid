@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b99dcdfa4d8ed74ca03f7aba5cb2d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShootingSpeed: 0.3
+  ShootingSpeed: 0.2
   ShootingStyle: 0
   Bullet: {fileID: 7875857189989400730, guid: aeeb07a05b89d764d8de06b3cfdfa03c, type: 3}
   IsMuzzleFlash: 1
