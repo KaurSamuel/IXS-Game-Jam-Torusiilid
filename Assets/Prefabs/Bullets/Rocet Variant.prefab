@@ -72,9 +72,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 47d3bf7b3cd7b8944804e1063cacabc7, type: 3}
     - target: {fileID: 5165285731077684406, guid: b2bb21534c016f64e874da9831be7b7a, type: 3}
+      propertyPath: damage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165285731077684406, guid: b2bb21534c016f64e874da9831be7b7a, type: 3}
       propertyPath: Explosion
       value: 
-      objectReference: {fileID: 9089273810947035729, guid: 2ccf03a092e5d404dbb0e0de90e41d8c, type: 3}
+      objectReference: {fileID: 3541684611926216782, guid: ad54da14d594fd243807ab55770384db, type: 3}
     - target: {fileID: 5165285731077684407, guid: b2bb21534c016f64e874da9831be7b7a, type: 3}
       propertyPath: m_Name
       value: Rocet Variant
