@@ -43,7 +43,7 @@ public class Weapon : MonoBehaviour
         curTimer += Time.deltaTime;
         if (ShootingStyle == ShootingStyles.Auto)
         {
-            if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) && curTimer >= ShootingSpeed)
+            if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) && curTimer >= ShootingSpeed)
             {
                 curTimer = 0f;
                 Shoot();
