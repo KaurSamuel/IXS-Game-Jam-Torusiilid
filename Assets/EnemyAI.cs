@@ -117,6 +117,7 @@ public class EnemyAI : MonoBehaviour
             HP -= other.gameObject.GetComponent<Bullet>().damage;
             if (HP <= 0)
             {
+                ScoreHolder.EnemiesKilled += 1;
                 Instantiate(WeaponPickup, gameObject.transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
@@ -131,6 +132,7 @@ public class EnemyAI : MonoBehaviour
             HP -= other.gameObject.GetComponent<ExplosionScript>().Damage;
             if (HP <= 0)
             {
+                ScoreHolder.EnemiesKilled += 1;
                 Instantiate(WeaponPickup, gameObject.transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }

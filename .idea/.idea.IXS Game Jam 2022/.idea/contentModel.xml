@@ -19,6 +19,7 @@
         <e p="MuzzleFlash.cs" t="Include" />
         <e p="portalScript.cs" t="Include" />
         <e p="Scorecounter.cs" t="Include" />
+        <e p="ScoreDisplayer.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ScoreHolder.cs" t="Include" />

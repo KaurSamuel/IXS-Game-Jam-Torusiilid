@@ -32,6 +32,7 @@ public class MainMenuManager : MonoBehaviour
     public void MainMenuButtonClick()
     {
         SceneManager.LoadScene("Main menu");
+        ScoreHolder.End = false;
     }
     public void ScoreboardButtonClick()
     {

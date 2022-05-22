@@ -34,6 +34,7 @@ public class mASTERPORTAL : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            ScoreHolder.End = true;
             fade.SetTrigger("Fade");
             Ending = true;
         }

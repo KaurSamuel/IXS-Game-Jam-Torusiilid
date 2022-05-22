@@ -13,12 +13,14 @@ public class ButtonEvents : MonoBehaviour
     public GameObject PlayernameInput;
     public GameObject playerScore;
     public GameObject Submitbutton;
+    public GameObject ScoreDisplay;
 
     public string username_unconfirmed = "";
     // Start is called before the first frame update
     void Start()
     {
         RecieveScores();
+        ScoreDisplay.GetComponent<TextMeshProUGUI>().text = ScoreHolder.Score.ToString();
         Debug.Log(ScoreHolder.Score.ToString());
     }
 
@@ -43,7 +45,6 @@ public class ButtonEvents : MonoBehaviour
 
     public void SendScore()
     {
-        Debug.Log("AHHHHHHH");
         StartCoroutine(Send(username_unconfirmed, ScoreHolder.Score));
         Submitbutton.SetActive(false);
     }

@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             curGamovertimer += Time.deltaTime;
             if (curGamovertimer > 2.5f)
             {
-                SceneManager.LoadScene("You Died");
+                SceneManager.LoadScene("GameOver");
             }
             return;
         }

@@ -550,6 +550,7 @@ MonoBehaviour:
   PlayernameInput: {fileID: 873540471}
   playerScore: {fileID: 1517611201}
   Submitbutton: {fileID: 1011925430}
+  ScoreDisplay: {fileID: 1517611201}
   username_unconfirmed: 
 --- !u!4 &666015154
 Transform:
@@ -1673,7 +1674,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
