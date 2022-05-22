@@ -33,6 +33,8 @@ public class MainMenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Main menu");
         ScoreHolder.End = false;
+        ScoreHolder.Score = 0;
+        ScoreHolder.EnemiesKilled = 0;
     }
     public void ScoreboardButtonClick()
     {

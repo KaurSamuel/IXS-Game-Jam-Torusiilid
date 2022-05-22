@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -19,12 +18,6 @@ public class PlayerMovement : MonoBehaviour
     public int HP;
     public GameObject equippedWeapon;
     public GameObject WeaponParent;
-
-    public GameObject Heart1;
-    public GameObject Heart2;
-    public GameObject Heart3;
-    public GameObject Heart4;
-    public GameObject Heart5;
 
     public AudioClip JumpSound;
     public AudioClip FootStepSound;
