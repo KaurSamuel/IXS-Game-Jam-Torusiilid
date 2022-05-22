@@ -14,6 +14,7 @@
         <e p="EnemyAI.cs" t="Include" />
         <e p="ExplosionScript.cs" t="Include" />
         <e p="MainMenuManager.cs" t="Include" />
+        <e p="mASTERPORTAL.cs" t="Include" />
         <e p="musicplayer.cs" t="Include" />
         <e p="MuzzleFlash.cs" t="Include" />
         <e p="portalScript.cs" t="Include" />

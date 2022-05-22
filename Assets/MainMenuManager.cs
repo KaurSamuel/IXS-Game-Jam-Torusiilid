@@ -2,23 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public Slider slider;
+    public Slider volumeSlider;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (volumeSlider != null )
+        {
+            volumeSlider.value = ScoreHolder.Volume;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (slider != null)
+        if (volumeSlider != null )
         {
-            ScoreHolder.Volume = slider.value;
+            ScoreHolder.Volume = volumeSlider.value;   
         }
     }
 
