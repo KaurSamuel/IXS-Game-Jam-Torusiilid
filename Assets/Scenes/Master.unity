@@ -7730,6 +7730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_swords (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4819732805504237746, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1971846
+      objectReference: {fileID: 0}
     - target: {fileID: 7401234360952745926, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_RootOrder
       value: 250
@@ -9901,6 +9905,10 @@ PrefabInstance:
     - target: {fileID: 4128400269972610568, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_Name
       value: platform_swords
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819732805504237746, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1971846
       objectReference: {fileID: 0}
     - target: {fileID: 7401234360952745926, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_RootOrder
@@ -12238,6 +12246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_swords
       objectReference: {fileID: 0}
+    - target: {fileID: 4819732805504237746, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1971846
+      objectReference: {fileID: 0}
     - target: {fileID: 7401234360952745926, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -13825,6 +13837,10 @@ PrefabInstance:
     - target: {fileID: 4128400269972610568, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_Name
       value: platform_swords (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819732805504237746, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1971846
       objectReference: {fileID: 0}
     - target: {fileID: 7401234360952745926, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_RootOrder
@@ -16320,6 +16336,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.48
       objectReference: {fileID: 0}
+    - target: {fileID: 9036552462861323377, guid: 11ff5373b29cffb43b3078fd1aa943ef, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.07671809
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ff5373b29cffb43b3078fd1aa943ef, type: 3}
 --- !u!1001 &1494064942
@@ -16655,6 +16675,10 @@ PrefabInstance:
     - target: {fileID: 4128400269972610568, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_Name
       value: platform_swords (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819732805504237746, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1971846
       objectReference: {fileID: 0}
     - target: {fileID: 7401234360952745926, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_RootOrder
@@ -17979,6 +18003,10 @@ PrefabInstance:
     - target: {fileID: 4128400269972610568, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_Name
       value: platform_swords
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819732805504237746, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1971846
       objectReference: {fileID: 0}
     - target: {fileID: 7401234360952745926, guid: a099007f45de8b146b01f6f181f391dd, type: 3}
       propertyPath: m_RootOrder
