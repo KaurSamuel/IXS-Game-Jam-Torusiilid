@@ -43,8 +43,9 @@ public class ButtonEvents : MonoBehaviour
 
     public void SendScore()
     {
-        System.Random rnd = new System.Random();
+        Debug.Log("AHHHHHHH");
         StartCoroutine(Send(username_unconfirmed, ScoreHolder.Score));
+        Submitbutton.SetActive(false);
     }
 
     IEnumerator Send(string Name, int Score){
@@ -121,7 +122,6 @@ public class ButtonEvents : MonoBehaviour
         }
 
         ScoreboardObject.text = final_scores_text;
-        Submitbutton.SetActive(false);
         RecieveScores();
     }
 

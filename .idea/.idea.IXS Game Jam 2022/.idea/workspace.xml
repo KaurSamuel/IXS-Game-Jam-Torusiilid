@@ -2,40 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="205254c1-9e1f-41fb-8dc4-3f4c6ecc733f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Mission fail.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Mission fail.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Music.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Music.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Tartu Game Jam.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Actions/Tartu Game Jam.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Image.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Image.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/ToutourialEnter.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/ToutourialEnter.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ButtonEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ButtonEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExplosionScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExplosionScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullets/ExplosionDebug.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullets/ExplosionDebug.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullets/ExplosionJavelin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullets/ExplosionJavelin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullets/RocetNPC Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullets/RocetNPC Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyJavelin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyJavelin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyRPG.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyRPG.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyUzi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyUzi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tutorial/TextApear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tutorial/TextApear.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Javelin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Javelin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Morning star.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Morning star.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/RPG.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/RPG.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Uzi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Uzi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Weapon Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Weapon Bomb.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Weapon Granat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Weapon Granat.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kaur Debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kaur Debug.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Master.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Master.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scoreboard.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scoreboard.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutourial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutourial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/You Died.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/You Died.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Portal_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Portal_0.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/musicplayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/musicplayer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +33,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/portalScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/mASTERPORTAL.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ButtonEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shootingspot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Audiocontroller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.spriteshape@7.0.4/Runtime/SpriteShapeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Credits.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Runtime/InternalBridge/InternalEngineBridge.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Cameracontroller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MainMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ExplosionScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61D61D5F-64F4-49E3-A5DA-7A3BA725297F/cd/e9ae8b55/AudioListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ButtonEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bullets/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Kaur Debug.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MuzzleFlash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WeaponPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/musicplayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutourialText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shootingspot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -81,15 +69,16 @@
         <option value="$PROJECT_DIR$/Assets/TutourialText.cs" />
         <option value="$PROJECT_DIR$/Assets/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/portalScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Audiocontroller.cs" />
-        <option value="$PROJECT_DIR$/Assets/ButtonEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/ExplosionScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/musicplayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/mASTERPORTAL.cs" />
+        <option value="$PROJECT_DIR$/Assets/ButtonEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/musicplayer.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653069592654</updated>
       <workItem from="1653069602663" duration="25164000" />
-      <workItem from="1653119890917" duration="39648000" />
+      <workItem from="1653119890917" duration="44022000" />
     </task>
     <servers />
   </component>
