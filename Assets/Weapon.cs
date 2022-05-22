@@ -43,7 +43,7 @@ public class Weapon : MonoBehaviour
         curTimer += Time.deltaTime;
         if (ShootingStyle == ShootingStyles.Auto)
         {
-            if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) && curTimer >= ShootingSpeed)
+            if ((Input.GetKey(KeyCode.Return) || Input.GetKey("enter")) && curTimer >= ShootingSpeed)
             {
                 curTimer = 0f;
                 Shoot();
@@ -51,7 +51,7 @@ public class Weapon : MonoBehaviour
         }
         if (ShootingStyle == ShootingStyles.Semi)
         {
-            if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) && curTimer >= ShootingSpeed)
+            if ((Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown("enter")) && curTimer >= ShootingSpeed)
             {
                 curTimer = 0f;
                 Shoot();

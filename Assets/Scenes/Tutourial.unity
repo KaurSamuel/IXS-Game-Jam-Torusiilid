@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2002007132989856425, guid: 1d21db1898ddb604585b48baa165f4ca, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b480bc6cd0f4d064b8861c8f580bf2e4, type: 2}
+    - target: {fileID: 2002007132989856428, guid: 1d21db1898ddb604585b48baa165f4ca, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 284803806, guid: 9c8221dfbcb1537468930c45bcb2228b, type: 3}
     - target: {fileID: 2002007132989856430, guid: 1d21db1898ddb604585b48baa165f4ca, type: 3}
       propertyPath: m_Constraints
       value: 7
@@ -359,7 +367,7 @@ PrefabInstance:
       value: 'I found this weapon here...
 
 
-        You can attack with the SHIFT
+        You can attack with the ENTER
         KEY.
 
 

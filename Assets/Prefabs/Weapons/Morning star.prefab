@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootingSpeed: 0.5
-  ShootingStyle: 0
+  ShootingStyle: 1
   Bullet: {fileID: 4435796261923419290, guid: 5b291d819f86bc1449b2c4d8752d7e77, type: 3}
   IsMuzzleFlash: 0
   MuzzleFlash: {fileID: 0}

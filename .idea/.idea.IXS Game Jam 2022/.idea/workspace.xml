@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="205254c1-9e1f-41fb-8dc4-3f4c6ecc733f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IXS Game Jam 2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ButtonEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ButtonEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Master.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Master.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutourial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutourial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scorecounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scorecounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreHolder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mASTERPORTAL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mASTERPORTAL.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Audiocontroller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.spriteshape@7.0.4/Runtime/SpriteShapeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Credits.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Runtime/InternalBridge/InternalEngineBridge.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Cameracontroller.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,8 +65,8 @@
         <option value="$PROJECT_DIR$/Assets/mASTERPORTAL.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyAI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/ScoreDisplayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapon.cs" />
       </list>
     </option>
   </component>
