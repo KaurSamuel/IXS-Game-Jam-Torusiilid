@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -19,12 +18,6 @@ public class PlayerMovement : MonoBehaviour
     public int HP;
     public GameObject equippedWeapon;
     public GameObject WeaponParent;
-
-    public GameObject Heart1;
-    public GameObject Heart2;
-    public GameObject Heart3;
-    public GameObject Heart4;
-    public GameObject Heart5;
 
     public AudioClip JumpSound;
     public AudioClip FootStepSound;
@@ -116,50 +109,6 @@ public class PlayerMovement : MonoBehaviour
                 InvincibilityFrames = false;
                 animator.SetBool("Invincibility", false);
             }
-        }
-
-        if(HP == 5)
-        {
-            Heart1.GetComponent<Image>().enabled = true;
-            Heart2.GetComponent<Image>().enabled = true;
-            Heart3.GetComponent<Image>().enabled = true;
-            Heart4.GetComponent<Image>().enabled = true;
-            Heart5.GetComponent<Image>().enabled = true;
-        }else if(HP == 4)
-        {
-            Heart1.GetComponent<Image>().enabled = true;
-            Heart2.GetComponent<Image>().enabled = true;
-            Heart3.GetComponent<Image>().enabled = true;
-            Heart4.GetComponent<Image>().enabled = true;
-            Heart5.GetComponent<Image>().enabled = false;
-        }else if(HP == 3)
-        {
-            Heart1.GetComponent<Image>().enabled = true;
-            Heart2.GetComponent<Image>().enabled = true;
-            Heart3.GetComponent<Image>().enabled = true;
-            Heart4.GetComponent<Image>().enabled = false;
-            Heart5.GetComponent<Image>().enabled = false;
-        }else if(HP == 2)
-        {
-            Heart1.GetComponent<Image>().enabled = true;
-            Heart2.GetComponent<Image>().enabled = true;
-            Heart3.GetComponent<Image>().enabled = false;
-            Heart4.GetComponent<Image>().enabled = false;
-            Heart5.GetComponent<Image>().enabled = false;
-        }else if(HP == 1)
-        {
-            Heart1.GetComponent<Image>().enabled = true;
-            Heart2.GetComponent<Image>().enabled = false;
-            Heart3.GetComponent<Image>().enabled = false;
-            Heart4.GetComponent<Image>().enabled = false;
-            Heart5.GetComponent<Image>().enabled = false;
-        }else
-        {
-            Heart1.GetComponent<Image>().enabled = false;
-            Heart2.GetComponent<Image>().enabled = false;
-            Heart3.GetComponent<Image>().enabled = false;
-            Heart4.GetComponent<Image>().enabled = false;
-            Heart5.GetComponent<Image>().enabled = false;
         }
     }
 
