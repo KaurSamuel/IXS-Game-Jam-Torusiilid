@@ -10,6 +10,7 @@ TagManager:
   - Explosion
   - Enemy
   - EnemyBullet
+  - Spike
   - EnemyExplosion
   layers:
   - Default

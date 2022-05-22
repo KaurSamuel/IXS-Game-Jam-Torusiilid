@@ -129,6 +129,24 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D entered)
+    {
+        if(entered.gameObject.tag == "Spike")
+        {
+            //Debug.Log("Spike hit");
+            animator.SetTrigger("Damage");
+            audioSource.clip = DamageSound;
+            audioSource.Play();
+            HP -= 1;
+            if (HP <= 0)
+            {
+                Gameover();
+            }
+            animator.SetBool("Invincibility", true);
+            InvincibilityFrames = true;
+        }
+    }
+
     public void ChangeWeapon(GameObject weapon)
     {
         Destroy(equippedWeapon);
