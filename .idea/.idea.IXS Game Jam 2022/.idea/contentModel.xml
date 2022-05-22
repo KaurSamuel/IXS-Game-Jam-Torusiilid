@@ -18,6 +18,7 @@
         <e p="musicplayer.cs" t="Include" />
         <e p="MuzzleFlash.cs" t="Include" />
         <e p="portalScript.cs" t="Include" />
+        <e p="Scorecounter.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ScoreHolder.cs" t="Include" />
